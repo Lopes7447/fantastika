@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Roboto Serif", serif;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #252525;
+    width: 100vw;
+    height: 20vh;
+  }
+  figure {
+    position: relative;
+    right: 130px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 200px;
+    width: 127px;
+  }
+  .ImagemPataHeader {
+    width: 3vw;
+    padding: 5px;
+  }
+  .dogsection {
+    display: flex;
+    width: 100vw;
+  }
+  article {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    text-align: center;
+    height: 29vh;
+    flex-direction: column;
+    position: relative;
+    bottom: 740px;
+    left: 10px;
+    font-size: 60px;
+    color: white;
+  }
+  article p {
+    position: relative;
+    top: 70px;
+  }
+  .patinhaarticle {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 570px;
+    top: 85px;
+  }
+  .dogleão {
+    position: relative;
+    width: 100vw;
+    margin-top: -185px;
+  }
+  .articledogleão {
+    display: flex;
+    justify-content: flex-start;
+    bottom: 850px;
+    left: 62px;
+    width: 600px;
+    height: 700px;
+    opacity: 1;
+  }
+  .pdogleão {
+    position: relative;
+    bottom: 990px;
+    left: 62px;
+    width: 417px;
+    height: 57px;
+    text-align: left;
+    font: normal normal bold 49px/60px Roboto Serif 20pt;
+    letter-spacing: 0px;
+    color: #3a342f;
+    opacity: 1;
+  }
+  .pdogleão2 {
+    position: relative;
+    top: 150px;
+    left: 62px;
+    width: 416px;
+    height: 203px;
+    text-align: left;
+    font: normal normal normal 27px/42px Roboto;
+    letter-spacing: 0px;
+    color: #3a342f;
+    opacity: 1;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    position: relative;
+    top: 150px;
+    right: 110px;
+    width: 248px;
+    height: 81px;
+    background: #3a342f 0% 0% no-repeat padding-box;
+    border-radius: 44px;
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    font: normal, normal, bold 27px/35px Roboto, bold;
+    font-size: 20px;
+    color: #f4f2f3;
+    opacity: 1;
+  }
+  .secdogmanhoso {
+    position: relative;
+    bottom: 700px;
+    margin-top: -10px;
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .artdogmanhoso {
+    position: relative;
+    border: solid red;
+    bottom: 850px;
+    font-size: 20px;
+    left: 300px;
+    width: 250px;
+    height: 190vh;
+    opacity: 1;
+  }
+  div {
+    position: absolute;
+    bottom: 460px;
+    display: flex;
+    flex-direction: column;
+    left: 750px;
+    width: 40vw;
+    height: 80vh;
+  }
+  .temos {
+    width: 28vw;
+    position: relative;
+    top: 10px;
+    text-align: left;
+    font: normal normal normal 27px/42px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .mordomia {
+    width: 10vw;
+    position: relative;
+    text-align: left;
+    font: normal normal bold 49px/60px Roboto Serif 20pt;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 65px;
+  }
+  
+  .fale {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 44px;
+    opacity: 1;
+    top: 40px;
+    left: 5px;
+  }
+  .pbutton {
+    font: normal normal bold 27px/35px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    width: 60vw;
+    bottom: 720px;
+    height: 112px;
+    left: 300px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .americanas {
+    position: relative;
+    left: 340px;
+  }
+  
+  .havaianas {
+    position: relative;
+    left: 200px;
+  }
+  .apoio {
+    position: relative;
+    height: 10vh;
+    top: 25px;
+    right: 70px;
+    text-align: center;
+    font: italic normal normal 24px/55px Roboto Serif 20pt;
+    letter-spacing: 0px;
+    color: #fd6a9a;
+    opacity: 1;
+    font-size: 25px;
+  }
+  .footer {
+    left: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerend {
+    display: flex;
+    position: relative;
+    top: 200px;
+    height: 100vh;
+    width: 200vw;
+    right: 235px;
+  }
+  .divone {
+    position: relative;
+    top: 200px;
+    height: 30vh;
+    right: 445px;
+    font: normal normal normal 14px/26px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font: normal normal normal 14px/26px Roboto;
+  }
+  .divtwo {
+    position: relative;
+    top: 200px;
+    height: 30vh;
+    right: 330px;
+  }
+  .divtree {
+    position: relative;
+    top: 100px;
+    right: 270px;
+    top: 200px;
+    height: 30vh;
+  }
+  ul {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    bottom: 70px;
+    display: flex;
+    background-color: #eb4a7b;
+    color: #ffffff;
+  }
+  .atendimentos {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 60px;
+    left: 100px;
+    width: 40vw;
+    height: 20vh;
+  }
+  
